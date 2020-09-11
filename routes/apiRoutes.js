@@ -43,8 +43,8 @@ module.exports = function (app) {
       res.json(true);
     }
     else {
-      // waitListData.push(req.body);
-      // res.json(false);
+      db.push(req.body);
+      res.json(false);
     }
   });
 
@@ -54,8 +54,7 @@ module.exports = function (app) {
 
   app.post("/api/clear", function (req, res) {
     // Empty out the arrays of data
-    tableData.length = 0;
-    waitListData.length = 0;
+    db.length = 0;
 
     res.json({ ok: true });
   });
