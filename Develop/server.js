@@ -4,6 +4,8 @@
 // ==============================================================================
 
 var express = require("express");
+var htmlRoutes = require("./routes/htmlRoutes");
+var apiRoutes = require("./routes/apiRoutes");
 
 // ==============================================================================
 // EXPRESS CONFIGURATION
@@ -14,7 +16,7 @@ var express = require("express");
 var app = express();
 
 // Sets an initial port. We"ll use this later in our listener
-var PORT = process.env.PORT || 3000;
+var PORT = process.env.PORT || 3002;
 
 // Sets up the Express app to handle data parsing
 app.use(express.urlencoded({ extended: true }));
