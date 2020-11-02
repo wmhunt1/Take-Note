@@ -2,7 +2,7 @@
 ## Description:
 A note taker app made using node and express along with api and html routes.
 Github Link: https://github.com/wmhunt1/Take-Note
-Deployed Link: https://wmhunt1.github.io/Take-Note/
+Deployed Link: https://notetakingappwarrenhunt.herokuapp.com/
 ## Installation
 Gitbash and Node.js are required. Open the server.js file in Gitbash and use the npm install and npm install express commands.
 ## Usage
